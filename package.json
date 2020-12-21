@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "next",
     "watchme": "watch 'npm build' src",
-    "build": "next build",
+  "//" : "build": "next build",
+    "build": "next build && next export",
     "start": "next start",
     "export": "next export",
     "deploy": "next build && next export && ./scripts/deploy"
