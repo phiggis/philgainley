@@ -1,6 +1,8 @@
 import Link from 'next/link'
 import Head from "next/head";
 import React from 'react';
+
+import menu from '../../components/menu'
 //import { Router, Route } from 'react-router-dom';
 
 //https://dev.to/rajnishkatharotiya/import-files-without-deep-nesting-relative-path-in-next-js-14ed
@@ -25,7 +27,7 @@ export default function AboutMe() {
         //
 
       </body>
-
+<menu/>
       <h2>
         <Link href="/">
           <a>Back to home</a>
