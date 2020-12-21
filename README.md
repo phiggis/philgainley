@@ -3,6 +3,27 @@ https://app.netlify.com/sites/philgainley/deploys
 https://github.com/phiggis/philgainley
 https://www.philgainley.com/
 
+https://medium.com/@amanze.ogbonna/accessing-pushing-to-github-without-username-and-password-3022feb077fb
+
+git remote -v
+$ origin https://github.com/USERNAME/REPOSITORY.git (fetch)
+$ origin https://github.com/USERNAME/REPOSITORY.git (push)
+git remote set-url origin git@github.com:USERNAME/OTHERREPOSITORY.git
+
+git config --global credential.helper credential-store
+
+# https://gist.github.com/developius/c81f021eb5c5916013dc11
+ssh-keygen -t rsa -C "phiggis@gmail.com"
+
+git remote set-url origin	git@github.com:phiggis/philgainley.git
+
+
+git remote set-url origin	git@github.com:phiggis/PHD_Documents.git
+
+git remote set-url origin	git@github.com:phiggis/Models.git
+
+
+
 # A Next.js starter for the [JAMstack](https://jamstack.org)
 This is a boilerplate for using [Next.js](https://nextjs.org/) as a static site generator.
 
