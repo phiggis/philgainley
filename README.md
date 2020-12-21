@@ -1,3 +1,8 @@
+
+https://app.netlify.com/sites/philgainley/deploys
+https://github.com/phiggis/philgainley
+https://www.philgainley.com/
+
 # A Next.js starter for the [JAMstack](https://jamstack.org)
 This is a boilerplate for using [Next.js](https://nextjs.org/) as a static site generator.
 
