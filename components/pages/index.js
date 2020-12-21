@@ -3,7 +3,6 @@ import NoSSR from 'react-no-ssr'
 
 import Scene from '../components/Scene'
 import Loading from '../components/Loading'
-import menu from '../components/menu'
 
 import '../styles/main.scss'
 
@@ -19,8 +18,10 @@ sudo npm run-script build  <br/>
 npm run watchme<br/>
 npm start <br/>
 
-<menu/>
-
+<a href="/posts/about">About me</a><br/>
+<a href="/posts/publications">Publications</a><br/>
+<a href="/posts/playground">Playground</a><br/>
+<a href="/posts/contact">Contact</a><br/>
 </>
   )
 }
