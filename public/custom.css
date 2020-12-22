@@ -1,0 +1,79 @@
+/*
+https://fonts.google.com/specimen/Press+Start+2P?sidebar.open=true&selection.family=Press+Start+2P
+*/
+@font-face {
+    font-family: 'Press Start 2P';
+  src: url('PressStart2P-Regular.ttf') format('truetype')
+ }
+body
+{
+  font-size: 100%;
+}
+
+.Menu a
+{
+  float:left;
+  font-family: 'Press Start 2P';
+  padding-right: 1rem;
+      font-size: 1.2rem;
+}
+
+.Menu
+{
+
+display: block;
+
+padding:2rem;
+margin-bottom:1rem;
+}
+body
+{
+  margin:0px;
+}
+h1
+{
+  float:clear !important;
+  clear:both;
+
+}
+
+.background
+{
+  padding:1rem;
+  margin-bottom: 1rem;
+}
+.content
+{
+
+    margin:0.5rem;
+    padding: 1rem;
+
+    background-color: rgba(255, 255, 255, 0.3);
+
+}
+html
+{
+  font-size:100%;
+}
+
+.right
+{
+  float:right;
+  padding-bottom:2rem;
+  display: block;
+}
+.divider
+{
+  margin-top: 15px;
+}
+
+
+    .space {
+        background-image: url('/space.jpeg');
+        background-repeat: repeat-y;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        height:100%;
+        }
