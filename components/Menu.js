@@ -1,20 +1,34 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-//import './Menu.css';
 
+
+import React, { useState } from "react";
+import ReactDOM from 'react-dom';
+import Link from 'next/link'
+
+import { createMemoryHistory } from 'history'
+
+const history = createMemoryHistory()
+
+import { NavLink, Router } from 'react-router-dom'
+import { useRouter } from 'next/router'
+//import './Menu.css';
+// https://reactrouter.com/web/api/NavLink
+// https://www.codementor.io/@packt/using-the-link-and-navlink-components-to-navigate-to-a-route-rieqipp42
+// https://reactrouter.com/web/api/NavLink
+
+//      <Router>
 class Menu extends React.Component {
   render() {
     return (
-      <div className="Menu">
-      <a href="/about">About</a>
-
-      <a href="/playground">Playground</a>
-      <a href="/publications">Publications</a>
-      <a href="/contact">Contact</a>
-      </div>
-
+      <div className="section">
+      <Router history={history}>
+              <NavLink to="/about" activeClassName="selected">About</NavLink>
+              <NavLink to="/blog" activeClassName="selected">Blog</NavLink>
+              <NavLink to="/playground" activeClassName="selected">Playground</NavLink>
+             <NavLink to="/publications" activeClassName="selected">Publications</NavLink>
+              <NavLink to="/contact" activeClassName="selected">Contact</NavLink>
+</Router>
+              </div>
     )
-
 }
 }
 

@@ -18,7 +18,7 @@ class MyDocument extends Document {
 
           <link rel="stylesheet" href="/custom.css" />
 
-          <Menu/>
+{/*          <Menu/> */}
         </Head>
 
         <body>

@@ -5,36 +5,90 @@ https://fonts.google.com/specimen/Press+Start+2P?sidebar.open=true&selection.fam
     font-family: 'Press Start 2P';
   src: url('PressStart2P-Regular.ttf') format('truetype')
  }
+
+ @font-face {
+     font-family: 'CampusA';
+   src: url('Campus A.ttf') format('truetype')
+  }
+  @font-face {
+      font-family: 'RobotoThin';
+    src: url('Roboto-Thin.ttf') format('truetype')
+   }
+
+   @font-face {
+       font-family: 'RobotoBlack';
+     src: url('Roboto-Black.ttf') format('truetype')
+
+    }
+
+
+    @font-face {
+        font-family: 'Roboto-Light';
+      src: url('Roboto-Light.ttf') format('truetype')
+
+     }
+
+
+
+
 body
 {
-  font-size: 100%;
+  font-size: 125%;
 }
 
-.Menu a
+.section a
 {
   float:left;
-  font-family: 'Press Start 2P';
   padding-right: 1rem;
-      font-size: 1.2rem;
+  /*font-family: 'Press Start 2P';*/
+font-family: 'RobotoBlack';
+
+    font-size: 2rem;
 }
 
-.Menu
+.blocksection ul li{
+  display: block;
+  padding-bottom:1rem;
+}
+.blogsection a
+{
+
+
+  font-family: 'RobotoThin';
+    font-size: 1.0rem;
+
+}
+
+.sectionpadding
 {
 
 display: block;
-
-padding:2rem;
-margin-bottom:1rem;
+padding:1rem;
 }
+
+.section
+{
+  clear:both;
+  padding-top:1em;
+  padding-left:2rem;
+}
+
 body
 {
   margin:0px;
 }
 h1
 {
-  float:clear !important;
-  clear:both;
+  /*float:clear !important;
+  clear:both;*/
+    font-family: 'RobotoBlack';
 
+}
+h2
+{
+    font-family: 'Roboto-Light';
+  /*font-family: 'Press Start 2P';*/
+    font-size: 1.2rem;
 }
 
 .background
@@ -48,7 +102,7 @@ h1
     margin:0.5rem;
     padding: 1rem;
 
-    background-color: rgba(255, 255, 255, 0.3);
+    background-color: rgba(255, 255, 255, 0.8);
 
 }
 html

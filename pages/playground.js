@@ -1,20 +1,24 @@
-import React from 'react'
-import NoSSR from 'react-no-ssr'
+import Head from 'next/head'
+import Layout, { siteTitle } from '../components/layout'
+//import utilStyles from '../public/utils.modules.css'
+import Link from 'next/link'
+import Date from '../components/date'
+import Menu from '../components/Menu'
 import Reset from '../components/Reset'
 import Back from '../components/Back'
-
-const playground = () => {
+export default function playground() {
   return (
+
     <>
-    <Reset/>
-      <div className="space background">
-      <div  className="content">
-          black black
-        <Back/>
-      </div>
-      </div>
+        <Layout home>
+          <Head>
+            <title>{siteTitle}</title>
+          </Head>
+        </Layout>
+
+              <section className='  section'>
+    coming soon
+              </section>
     </>
   )
 }
-
-export default playground
