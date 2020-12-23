@@ -1,22 +1,20 @@
 import React from 'react'
 
-const Loading = () => (
-  <div>
-    <h3>Loading...</h3>
+class Loading extends React.Component {
 
-    {/*language=CSS*/}
-    <style jsx>{`
-      div {
-        display: flex;
-        width: 100vw;
-        height: 100vh;
-        align-items: center;
-        justify-content: center;
-        color: #aaa;
-        background-color: #222;
-      }
-    `}</style>
-  </div>
-)
+
+    constructor(props, context) {
+      super(props, context)
+    }
+
+  render = () => {
+    return (
+            <>
+            blah
+      </>
+    )
+  }
+}
+
 
 export default Loading

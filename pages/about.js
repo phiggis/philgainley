@@ -1,26 +1,23 @@
-
 import Head from 'next/head'
 import Layout, { siteTitle } from '../components/layout'
 //import utilStyles from '../public/utils.modules.css'
 import Link from 'next/link'
 import Date from '../components/date'
-import Menu from '../components/Menu'
 
-
-export default function Index() {
+import Reset from '../components/Reset'
+import Back from '../components/Back'
+export default function AboutMe() {
   return (
-    <>
+<>
     <Layout home>
       <Head>
         <title>{siteTitle}</title>
       </Head>
     </Layout>
-    <section className=' blogsection section'>
-      <h2>What's new?</h2>
 
-asdfasdf
-
-    </section>
+          <section className='section'>
+          coming soon
+          </section>
 </>
   )
 }

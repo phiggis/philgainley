@@ -1,7 +1,8 @@
 import React from 'react'
 
-import Document, { Head, Main, NextScript } from 'next/document'
-
+import Document, { Head,Html, Main, NextScript } from 'next/document'
+import Menu from '../components/Menu'
+    //<Menu/>
 /**
  * Implements the skeleton of the HTML page
  */
@@ -12,16 +13,17 @@ class MyDocument extends Document {
 
   render() {
     return (
-      <html>
+      <Html>
         <Head>
-          <meta httpEquiv='x-ua-compatible' content='ie=edge,chrome=1'/>
-          <meta name='viewport'
-            content='width=device-width, initial-scale=1.0, shrink-to-fit=no'/>
 
-          <link rel="stylesheet" href='/_next/static/style.css'/>
+          <link rel="stylesheet" href="/custom.css" />
+
+{/*          <Menu/> */}
         </Head>
 
         <body>
+
+
           <Main/>
           <NextScript/>
         </body>
@@ -33,7 +35,7 @@ class MyDocument extends Document {
             height: 100vh;
           }
         `}</style>
-      </html>
+      </Html>
     )
   }
 }

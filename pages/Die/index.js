@@ -3,9 +3,9 @@ import NoSSR from 'react-no-ssr'
 
 import Scene from '../../components/Scene'
 import Loading from '../../components/Loading'
-
+/*
 import '../../styles/main.scss'
-
+*/
 /**
  * Implements main page
  */

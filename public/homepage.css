@@ -1,0 +1,46 @@
+
+  html, body {margin: 0; height: 100%; overflow: hidden}
+
+  .Menu a
+  {
+
+  display:block;
+  text-align:center;
+    font-size: 1.8rem;
+  width:100%;
+  color:green;
+  padding-top:1rem;
+  padding-bottom:1rem;
+      font-family: 'Press Start 2P', cursive;
+
+   }
+
+
+
+
+
+  { margin: 0; padding: 0; }
+
+  html {
+     background: url('/maxresdefault.jpg') no-repeat center center fixed;
+     -webkit-background-size: cover;
+     -moz-background-size: cover;
+     -o-background-size: cover;
+     background-size: cover;
+     }
+
+/* middle */
+     .Menu {
+       height: 200px;
+       position: relative;
+      /* border: 3px solid green;
+       border-spacing:8em 8em;*/
+     }
+
+     .Menu  {
+       margin: 0;
+       position: absolute;
+       top: 30%;
+       left: 50%;
+       transform: translate(-50%, -50%);
+     }
