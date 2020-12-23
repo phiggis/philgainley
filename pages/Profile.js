@@ -1,7 +1,7 @@
 import React from "react";
 import { useParams } from "react-router-dom";
 //import withAuth from "../components/withAuth";
-
+// https://stackoverflow.com/questions/53139884/next-js-disable-server-side-rendering-on-some-pages
 const Profile = () => {
   const { name } = "hello world";
   //const { name } = useParams();

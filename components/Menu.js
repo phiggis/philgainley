@@ -20,6 +20,14 @@ class Menu extends React.Component {
   render() {
     return (
       <div className="section">
+
+              <Link href="/about" activeClassName="selected">About</Link>
+              <Link href="/blog" activeClassName="selected">Blog</Link>
+              <Link href="/playground" activeClassName="selected">Playground</Link>
+             <Link href="/publications" activeClassName="selected">Publications</Link>
+              <Link href="/contact" activeClassName="selected">Contact</Link>
+
+      {/*
       <Router history={history}>
               <NavLink to="/about" activeClassName="selected">About</NavLink>
               <NavLink to="/blog" activeClassName="selected">Blog</NavLink>
@@ -27,6 +35,7 @@ class Menu extends React.Component {
              <NavLink to="/publications" activeClassName="selected">Publications</NavLink>
               <NavLink to="/contact" activeClassName="selected">Contact</NavLink>
 </Router>
+*/}
               </div>
     )
 }
