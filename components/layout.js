@@ -62,4 +62,5 @@ export default function Layout({ children, home }) {
       <Menu/>
     </div>
   )
+
 }

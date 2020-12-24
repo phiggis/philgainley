@@ -1,10 +1,12 @@
 import React from "react";
 import { useParams } from "react-router-dom";
-//import withAuth from "../components/withAuth";
+import NoSSR from 'react-no-ssr'
+import withAuth from "../components/withAuth";
 // https://stackoverflow.com/questions/53139884/next-js-disable-server-side-rendering-on-some-pages
-const Profile = () => {
-  const { name } = "hello world";
-  //const { name } = useParams();
+const Profile = ( {nop}) => {
+  //    <NoSSR onSSR={<Loading/>}>
+  //const { name } = "hello world";
+  const { name } = useParams();
   return (
     <div>
       <h1 className="title is-1">This is the Profile Page</h1>
@@ -24,7 +26,22 @@ const Profile = () => {
         </div>
       </article>
     </div>
+
   );
+//  </NoSSR>
 };
-export default Profile
-//export default withAuth(Profile);
+
+
+// This gets called on every request
+export async function getServerSideProps() {
+  // Fetch data from external API
+  //const res = await fetch(`https://.../data`)
+//  const data = await res.json()
+const nop = "";
+
+  // Pass data to the page via props
+  return { props: { nop } }
+}
+
+//export default Profile
+export default withAuth(Profile);

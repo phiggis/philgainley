@@ -19,7 +19,7 @@ import { useRouter } from 'next/router'
 class Menu extends React.Component {
   render() {
     return (
-      <div className="section">
+      <div className="section heading">
 
               <Link href="/about" activeClassName="selected">About</Link>
               <Link href="/blog" activeClassName="selected">Blog</Link>

@@ -16,6 +16,7 @@ export default function contact() {
         </Layout>
 
         <section className=' section'>
+        <h1>Contact</h1>
         coming soon
         </section>
     </>

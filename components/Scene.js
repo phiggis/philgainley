@@ -125,22 +125,22 @@ class Scene extends React.Component {
 
 
               </Button>
-<br/>
+
               <Button id='btn-dir' onClick={this.leftDirectionButtonClick}>
                 {/* Toggle icon depending on current direction */}
                 <FontAwesomeIcon icon={
               faBackward
                 }/>
               </Button>
-<br/>
-<Button id='btn-dir' onClick={this.rightDirectionButtonClick}>
+
+<Button id='btn-dir' onClick={this.righttDirectionButtonClick}>
   {/* Toggle icon depending on current direction */}
   <FontAwesomeIcon icon={
 faForward
   }/>
 </Button>
 
-
+<br/><br/>
             </Form>
           </div>
 

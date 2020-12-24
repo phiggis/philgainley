@@ -15,7 +15,8 @@ export default function publications() {
           </Head>
         </Layout>
 
-      <section className=' section'>
+      <section className=' section '>
+      <h1>Publications</h1>
         coming soon
       </section>
     </>

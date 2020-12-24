@@ -15,7 +15,9 @@ export default function AboutMe() {
       </Head>
     </Layout>
 
+
           <section className='section'>
+          <h1>About</h1>
           coming soon
           </section>
 </>

@@ -17,8 +17,8 @@ export default function Blog({ allPostsData }) {
         </Layout>
 
 
-      <section className=' blogsection section'>
-        <h2>What's new?</h2>
+      <section className=' section list'>
+        <h1>What's new?</h1>
         <ul>
           {allPostsData.map(({ id, date, title }) => (
 
