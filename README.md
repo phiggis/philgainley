@@ -34,6 +34,17 @@ sudo npm run build
 sudo npm run dev
 
 
+
+///////////////////////////
+
+https://www.apollographql.com/blog/building-a-next-js-app-with-apollo-client-slash-graphql/
+https://slash.dgraph.io/_/dashboard
+////////////////////////
+
+https://www.digitalocean.com/community/tutorials/how-to-create-a-pull-request-on-github
+/////////////////////////////////////////////////////////
+
+
 # A Next.js starter for the [JAMstack](https://jamstack.org)
 This is a boilerplate for using [Next.js](https://nextjs.org/) as a static site generator.
 

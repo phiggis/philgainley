@@ -15,9 +15,9 @@ export default function playground() {
             <title>{siteTitle}</title>
           </Head>
         </Layout>
-
               <section className='  section'>
-    coming soon
+              <h3>Experiments</h3>
+    <Link href="/Die"> WebGL </Link>
               </section>
     </>
   )
